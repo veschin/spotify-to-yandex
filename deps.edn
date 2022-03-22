@@ -1,0 +1,7 @@
+{:paths   ["src"]
+ :deps    {org.clojure/clojure      {:mvn/version "1.10.3"}
+           org.clojure/tools.reader {:mvn/version "1.3.6"}
+           cheshire/cheshire        {:mvn/version "5.9.0"}
+           clj-http/clj-http        {:mvn/version "3.12.3"}}
+ :aliases {:main-fn {:exec-fn   main/main
+                     :exec-args {:berear- ""}}}}
