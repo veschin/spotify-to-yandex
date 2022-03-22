@@ -1,6 +1,11 @@
 # spotify-to-yandex
 Импортер данных из Spotify в Яндекс.Музыку. Написан на Clojure с поддержкой командной строки
 
+Требования:   
+`Clojure10+`  
+`tool.deps`  
+Желание понять, что без токена работать ничего не будет.
+
 Для работы необходим Bearer токен    
 Взять можно [тут](https://developer.spotify.com/console/get-current-user-saved-tracks) обязательно с правами `user-library-read`
 
